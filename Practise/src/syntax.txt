@@ -139,6 +139,8 @@ s.charAt(0)
 s.substring(startIndex, endIndex_exclusive)
 String [] x = s.split(" ");
 
+if we want to split based on. '.' then the syntax is 
+s.split("\\."); 
 
 StringBuilder sb = new StringBuilder();
 sb.append('-');
