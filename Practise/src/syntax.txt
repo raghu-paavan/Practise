@@ -133,6 +133,11 @@ ans.remove()
 ans.removeFirst()
 ans.removeLast()
 
+List<Integer> x = new LinkedList<Integer>();
+x.addFirst() will throw error saying cannot find symbol addFirst() because 
+x has reference of List with LinkedList object. since there is no method like addFirst in the List class, it will throw a error. 
+
+
 *********String operations*********
 String s = "Raghu"
 s.charAt(0)
