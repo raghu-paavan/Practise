@@ -141,6 +141,10 @@ x has reference of List with LinkedList object. since there is no method like ad
 *********String operations*********
 String s = "Raghu"
 s.charAt(0)
+
+s.equals(p); 
+s.compareTo(p); 
+
 s.substring(startIndex, endIndex_exclusive)
 String [] x = s.split(" ");
 
