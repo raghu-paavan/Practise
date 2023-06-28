@@ -120,6 +120,11 @@ Collections.sort(list, new Comparator<Entry<Integer, Integer>>()
 );
 
 
+*********TreeMap operations*********
+TreeMap<Integer,Integer> map = new TreeMap<Integer,Integer>();
+map.floorEntry(k); return the Map.Entry<> where k<=available keys 
+
+
 *********LinkedList operations*********
 LinkedList<Integer> ans = new LinkedList<Integer>();
 ans.size()
